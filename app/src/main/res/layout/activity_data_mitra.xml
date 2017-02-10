@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_data_mitra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBDEFB"
+    tools:context="com.happytumiteam.surveypkbl.DataMitra">
+
+    <EditText
+        android:id="@+id/search_box"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Search"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:hint="@string/hint_search"
+        android:layout_alignParentTop="true"
+        android:background="#0D47A1"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

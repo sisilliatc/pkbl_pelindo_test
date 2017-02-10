@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="20dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#BBDEFB"
+    tools:context="com.happytumiteam.surveypkbl.Home">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:src="@drawable/btn_formdata"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:id="@+id/btn_formdata"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageView
+            android:src="@drawable/btn_datamitra"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_datamitra"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:src="@drawable/btn_info"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_info" />
+
+    </LinearLayout>
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="630dp">
+
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/pelindologo1"
+                    android:id="@+id/img_footer"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_toStartOf="@+id/linearLayout"
+                    android:layout_column="1"/>
+
+                <TextView
+                    android:text="PT Pelabuhan Indonesia (Persero) III"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/txt_footer"
+                    android:textSize="15sp"
+                    android:paddingTop="19dp"
+                    android:background="#BBDEFB"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:layout_toEndOf="@+id/img_pelindologo"
+                    android:layout_column="2"/>
+            </TableRow>
+        </TableLayout>
+
+
+</RelativeLayout>

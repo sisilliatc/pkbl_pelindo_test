@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">SurveyPKBL</string>
+    <string name="app_name"></string>
+    <string name="hint_email">Email Pegawai</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_forgot_password">"Forgot your password?"</string>
+    <string name="hint_search">Search</string>
+    <string name="label_search"></string>
+    <string name="hint_pass_lama">Password lama</string>
+    <string name="hint_pass_baru">Password baru</string>
 </resources>
